@@ -1,0 +1,23 @@
+{
+	"node_positions": {
+		"A" : [0, 0],
+		"B" : [0, 1],
+		"C" : [1, 1],
+		"D" : [1, 0]
+	},
+	"node_connections": [
+		{ "labels" : ["A", "B"], "material": 1 },
+		{ "labels" : ["A", "C"], "material": 1 },
+		{ "labels" : ["A", "D"], "material": 1 },
+		{ "labels" : ["B", "C"], "material": 1 },
+		{ "labels" : ["B", "D"], "material": 1 },
+		{ "labels" : ["C", "D"], "material": 1 }
+	],
+	"node_xy_fixed": {
+		"A" : {"u": 0},
+        "B" : {"u": 0, "v": 0}
+    },
+	"external_node_forces": {
+		"D": [0, -1]
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"node_positions": {
+		"A" : [0, 4],
+		"B" : [0, 0],
+		"C" : [3, 0]
+	},
+	"node_connections": [
+		{ "labels" : ["A", "B"], "material": 1 },
+		{ "labels" : ["B", "C"], "material": 1 },
+		{ "labels" : ["C", "A"], "material": 1 }
+    ],
+	"node_xy_fixed": {
+		"A" : {"u": 0.1, "v": -0.2},
+        "B" : {"u": 0},
+        "C" : {"v": 0}
+	},
+	"external_node_forces": {
+		"C": [1, 0]
+	}
+}
